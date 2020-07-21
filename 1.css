@@ -25,11 +25,11 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 }
 @media (max-width: 576px)
 {
-	/* a.navbar-brand{
+	a.navbar-brand{
 		display: block;
 		text-align: center;
 		width: 100%;
-	} */
+	}
 	a.nav-link{
 		line-height: 27px;
 		display: inline;
