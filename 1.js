@@ -1,6 +1,7 @@
 ﻿ $(function(){
    vitricuaedu=$('#khoiedu').offset().top -96;
    vitrisanpham=$('#khoisanpham').offset().top -96;
+   vitricmt=$('#khoicmt').offset().top -96;
    console.log(vitricuaedu);
 
  	$(".xuong,.kn").click(function()
@@ -13,6 +14,12 @@
  	$(".sp").click(function()
  	{
  		$('body,html').animate({scrollTop:vitrisanpham},700);
+ 		return false;
+ 	})
+
+ 	$(".cmt").click(function()
+ 	{
+ 		$('body,html').animate({scrollTop:vitricmt},700);
  		return false;
  	})
 })  
