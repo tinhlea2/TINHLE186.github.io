@@ -138,3 +138,30 @@ a.nuthire.btn.btn-danger{
 	border-radius: 0px;
 
 }
+.xuong{
+	width: 40px;
+	height: 80px;
+	border: white solid 1px;
+	position: absolute;
+	left: 50%;
+	border-radius: 30px;
+	bottom: 2%;
+	margin-left: -20px;
+	z-index: 2;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.xuong:hover{
+	bottom: 5%;
+
+}
+.xuong:after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 12px;
+	background: white;
+	left: 50%;
+	bottom: 68%;
+	margin-left: -2px;
+}
