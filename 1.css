@@ -38,9 +38,6 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 		float: none!important;
 		text-align: center;
 		margin: 0;
-		width: 104%;
-		padding: 10px 1px;
-		border-top: 1px solid #d8d8d8;
 	}
 	
 	li.nav-item{
