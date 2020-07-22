@@ -72,3 +72,53 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
    	background: white;
   }
 }
+.khoitt1{
+	height: 100%;
+	width: 100%;
+	background: #0abde3;
+	position: relative;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.khoitt1:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: #4cd137;/* #e4555b; */
+	z-index: 1;
+}
+.tt{
+	z-index: 2;
+	position: relative;
+	padding-top: 15%;
+}
+.tt img{
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+.tt  h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 22px;
+}
+.tt p{
+	color: black;
+	font-size: 15px;
+	line-height: 20px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 35px;
+}
+a.nuthire.btn.btn-danger{
+	width: 180px;
+
+	border: none;
+	border-radius: 0px;
+
+}
