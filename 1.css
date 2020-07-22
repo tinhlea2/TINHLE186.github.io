@@ -34,7 +34,7 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 		display: inline!important;
 		 float: none;
 	}
-	ul.nav.navbar-nav.float-sm-right{
+	ul.nav.navbar-nav.float-xs-right{
 		float: none!important;
 		text-align: center;
 	}
@@ -57,7 +57,7 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
   .tt img{
   	width: 100px;
   	margin-top: 80px;
-  	margin-left: 80px;
+  	margin-left: 0px;
   }
 
  	
