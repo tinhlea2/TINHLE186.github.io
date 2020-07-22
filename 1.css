@@ -23,7 +23,7 @@ li.nav-item{
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 	background: white;
 }
-@media (max-width: 450px)
+@media (max-width: 576px)
 {
 	/* a.navbar-brand{
 		display: block;
@@ -71,6 +71,13 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
     nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
    	background: white;
   }
+  .tt img{
+  	width: 200px;
+  	margin-top: 60px;
+  	margin-left: 35px;
+ 
+  }
+ 
 }
 .khoitt1{
 	height: 100%;
@@ -101,7 +108,7 @@ body,html{
 	border-radius: 50%;
 	margin-bottom: 50px;
 }
-.tt  h2{
+.tt h2{
 	font-size: 40px;
 	text-transform: uppercase;
 	color: white;
