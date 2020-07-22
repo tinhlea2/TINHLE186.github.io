@@ -1,7 +1,7 @@
 ﻿ $(function(){
    vitricuaedu=$('#khoiedu').offset().top -96;
    vitrisanpham=$('#khoisanpham').offset().top -96;
-   vitrilienhe=$('#khoilh').offset().top;
+   vitrilienhe=$('#khoilh').offset().top-96;
    vitricmt=$('#khoicmt').offset().top;
    console.log(vitricuaedu);
 
