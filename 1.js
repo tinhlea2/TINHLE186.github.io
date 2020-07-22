@@ -1,7 +1,7 @@
 ﻿ $(function(){
    vitricuaedu=$('#khoiedu').offset().top -96;
    vitrisanpham=$('#khoisanpham').offset().top -96;
-   vitricmt=$('#khoicmt').offset().top -96;
+   vitricmt=$('#khoicmt').offset().top;
    console.log(vitricuaedu);
 
  	$(".xuong,.kn").click(function()
