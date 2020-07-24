@@ -102,7 +102,7 @@ a.nutslide.btn.btn-warning {
     position: absolute;
     color: white;
     margin-left: 14%;
-   /*  background: url(images/icon1.png) no-repeat left top; */
+    background: url(images/icon1.png) no-repeat left top;
     padding-top: 168px;
     top: 58px;
 }
@@ -207,7 +207,7 @@ span.tieudephu {
 .khoimenu {}
 
 .khoimenu {
-    background: url(images/gai1.jpg);
+    background: url(images/slide03.jpg);
     background-size: cover;
     color: white;
 }
